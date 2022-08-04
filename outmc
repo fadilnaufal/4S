@@ -1,0 +1,211 @@
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   12/30/20 18:39:21
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ m102  92234 -0.00156046  92235 -0.07216      $ Fuel U-10Zr 8%        
+ warning.  material 102 is not used in the problem.
+ m103  92234 -0.00156046  92235 -0.0902       $ Fuel U-10Zr 10%       
+ warning.  material 103 is not used in the problem.
+ imcn   is done
+ 
+ warning.  shading failure.  cell   10
+ mcnpx    ver=27e   ld=Thu Mar 03 08:00:00 MST 2011   12/30/20 18:49:39
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ warning.  universe map (print table 128) disabled.
+ m102  92234 -0.00156046  92235 -0.07216      $ Fuel U-10Zr 8%        
+ warning.  material 102 is not used in the problem.
+ m103  92234 -0.00156046  92235 -0.0902       $ Fuel U-10Zr 10%       
+ warning.  material 103 is not used in the problem.
+  total fission nubar data are being used.
+ imcn   is done
+ dump    1 on file runtpe   nps =           0  coll =              0
+                              ctm =      0.00     nrn =              0
+
+ xact   is done
+ dynamic storage =         0 words,          0 bytes.      cp0 =  0.35
+
+ cycle    k(col)       ctm     active     k(col)    std dev        fom
+     1   1.01562      0.03
+     2   1.04152      0.06
+     3   0.99975      0.09
+     4   0.99536      0.12
+     5   0.98109      0.15
+     6   0.97226      0.17
+     7   0.95041      0.20
+     8   0.96890      0.23
+     9   0.93226      0.26
+    10   0.96283      0.28
+ ********************  begin active keff cycles  *********************
+    11   0.95037      0.31
+    12   0.94678      0.34          2    0.94857    0.00179    5401801
+    13   0.95957      0.36          3    0.95224    0.00381     796649
+    14   0.98904      0.39          4    0.96144    0.00959      93514
+    15   0.95078      0.42          5    0.95931    0.00773     114294
+    16   0.94659      0.44          6    0.95719    0.00665     129389
+    17   0.95932      0.47          7    0.95749    0.00563     154552
+    18   0.94172      0.50          8    0.95552    0.00526     155016
+    19   0.94901      0.52          9    0.95480    0.00470     173472
+    20   0.95389      0.55         10    0.95471    0.00420     194390
+    21   0.95652      0.58         11    0.95487    0.00380     213942
+    22   0.95772      0.61         12    0.95511    0.00348     234325
+    23   0.97079      0.64         13    0.95631    0.00342     223058
+    24   0.94007      0.67         14    0.95515    0.00337     210869
+    25   0.96726      0.69         15    0.95596    0.00324     213004
+    26   0.93363      0.72         16    0.95457    0.00334     187489
+    27   0.94111      0.75         17    0.95377    0.00323     185684
+    28   0.95809      0.78         18    0.95401    0.00306     195434
+    29   0.94351      0.81         19    0.95346    0.00295     198939
+    30   0.95150      0.84         20    0.95336    0.00280     209829
+    31   0.95539      0.87         21    0.95346    0.00266     220859
+    32   0.95433      0.89         22    0.95350    0.00254     231789
+    33   0.92206      0.92         23    0.95213    0.00278     184015
+    34   0.97180      0.95         24    0.95295    0.00279     175870
+    35   0.93690      0.98         25    0.95231    0.00275     173366
+    36   0.93760      1.00         26    0.95174    0.00270     172731
+    37   0.93016      1.03         27    0.95094    0.00272     164434
+    38   0.95165      1.05         28    0.95097    0.00262     171137
+    39   0.98303      1.08         29    0.95208    0.00276     148946
+    40   0.95317      1.11         30    0.95211    0.00267     153847
+    41   0.96297      1.14         31    0.95246    0.00260     156437
+    42   0.94681      1.17         32    0.95229    0.00253     160801
+    43   0.94386      1.20         33    0.95203    0.00246     163881
+    44   0.94058      1.23         34    0.95169    0.00241     165277
+    45   0.96218      1.25         35    0.95199    0.00236     167620
+    46   0.94823      1.28         36    0.95189    0.00230     172394
+    47   0.97150      1.31         37    0.95242    0.00230     167725
+    48   0.94985      1.34         38    0.95235    0.00224     172177
+    49   0.95924      1.37         39    0.95253    0.00219     175714
+    50   0.93022      1.39         40    0.95197    0.00220     168390
+    51   0.94406      1.42         41    0.95178    0.00216     171041
+    52   0.99381      1.45         42    0.95278    0.00233     143050
+    53   0.96030      1.48         43    0.95295    0.00228     145317
+    54   0.93408      1.51         44    0.95252    0.00227     143310
+    55   0.96424      1.54         45    0.95278    0.00223     144586
+    56   0.98626      1.57         46    0.95351    0.00230     132974
+    57   0.98227      1.60         47    0.95412    0.00234     126501
+    58   0.97294      1.63         48    0.95452    0.00232     125585
+    59   0.94802      1.66         49    0.95438    0.00228     127614
+    60   0.96029      1.69         50    0.95450    0.00223     129892
+    61   0.96289      1.72         51    0.95467    0.00219     131821
+    62   0.97321      1.75         52    0.95502    0.00218     130824
+    63   0.97214      1.78         53    0.95535    0.00216     130487
+    64   0.99860      1.81         54    0.95615    0.00227     116536
+    65   0.96284      1.84         55    0.95627    0.00223     118158
+    66   0.92967      1.87         56    0.95579    0.00224     114823
+    67   0.99137      1.90         57    0.95642    0.00229     108144
+    68   0.96691      1.93         58    0.95660    0.00226     109007
+    69   0.96606      1.96         59    0.95676    0.00222     110364
+    70   0.93105      1.99         60    0.95633    0.00223     107757
+    71   0.98950      2.02         61    0.95687    0.00226     103382
+    72   0.96382      2.05         62    0.95699    0.00222     104776
+    73   0.97284      2.08         63    0.95724    0.00220     104924
+    74   0.95316      2.11         64    0.95717    0.00217     106460
+    75   0.96138      2.14         65    0.95724    0.00214     107956
+    76   0.95786      2.18         66    0.95725    0.00210     109459
+    77   0.95975      2.21         67    0.95728    0.00207     111072
+    78   0.96417      2.24         68    0.95739    0.00204     112383
+    79   0.97044      2.27         69    0.95758    0.00202     113007
+    80   0.95012      2.30         70    0.95747    0.00200     114130
+    81   0.95789      2.33         71    0.95747    0.00197     115644
+    82   0.96107      2.36         72    0.95752    0.00194     117049
+    83   0.98256      2.39         73    0.95787    0.00195     114989
+    84   0.95375      2.42         74    0.95781    0.00192     116317
+    85   0.94228      2.45         75    0.95760    0.00191     116426
+    86   0.94151      2.49         76    0.95739    0.00189     116375
+    87   0.95500      2.52         77    0.95736    0.00187     117751
+    88   0.93814      2.55         78    0.95712    0.00186     117042
+    89   0.93871      2.59         79    0.95688    0.00185     115828
+    90   0.95101      2.62         80    0.95681    0.00183     116992
+    91   0.95148      2.65         81    0.95674    0.00181     118238
+    92   0.93137      2.69         82    0.95643    0.00181     116064
+    93   0.94470      2.72         83    0.95629    0.00180     116539
+    94   0.95492      2.75         84    0.95628    0.00177     117805
+    95   0.94292      2.78         85    0.95612    0.00176     118097
+    96   0.93367      2.82         86    0.95586    0.00176     116710
+    97   0.94940      2.85         87    0.95578    0.00174     117754
+    98   0.96086      2.88         88    0.95584    0.00172     118957
+    99   0.94985      2.91         89    0.95577    0.00170     119942
+   100   0.97816      2.94         90    0.95602    0.00170     118804
+   101   0.92870      2.97         91    0.95572    0.00171     116288
+   102   0.96234      3.00         92    0.95579    0.00169     117310
+   103   0.97923      3.04         93    0.95605    0.00169     115786
+   104   0.92200      3.07         94    0.95568    0.00171     111635
+   105   0.91601      3.11         95    0.95527    0.00175     105996
+   106   0.94151      3.14         96    0.95512    0.00173     106205
+   107   0.97459      3.17         97    0.95532    0.00173     105751
+   108   0.96894      3.21         98    0.95546    0.00172     106064
+   109   0.95131      3.24         99    0.95542    0.00170     106947
+   110   0.91179      3.28        100    0.95499    0.00174     100999
+ source distribution to file srctp        cycle =   110
+ run terminated when   110 kcode cycles were done.
+
+final k(col/abs/trk len) = 0.95579     std dev = 0.00161
+
+ dump    2 on file runtpe   nps =      110442  coll =        6552875
+                              ctm =      3.28     nrn =      122567479
+
+ mcrun  is done
